@@ -8,6 +8,7 @@ from numba import njit
 import cv2
 import datetime
 # Create your views here.
+import pandas as pd
 
 def main(request):
     if request.method == 'POST':
